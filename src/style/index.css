@@ -1,20 +1,67 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
+  /* margin: 10px;
+	padding: 20px; */
 }
 
-* {
-  box-sizing: border-box;
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 250px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.register {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+}
+
+.join-log {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+}
+
+.register-facebook {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 250px;
+}
+
+.module {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.merchant-brand,
+.public-celebrity {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  padding: 10px 10px;
+  width: 400px;
+}
+
+.merchant-brand-intro,
+.public-celebrity-intro {
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
+
+.public-celebrity-caption,
+.merchant-brand-caption {
+  text-align: center;
+  font-weight: bold;
 }
